@@ -1,0 +1,9 @@
+#N canvas 827 239 527 327 12;
+#X obj 73 718 output~;
+#X obj 73 119 keyboard 16 80 4 2 0 0 empty empty;
+#X text 74 92 keyboard object;
+#X text 192 633 check modified kick to accept MIDI messages;
+#X obj 73 634 04_kick~ 20 500;
+#X connect 1 0 4 0;
+#X connect 4 0 0 0;
+#X connect 4 0 0 1;
