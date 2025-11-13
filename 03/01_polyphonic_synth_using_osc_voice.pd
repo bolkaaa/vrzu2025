@@ -1,0 +1,18 @@
+#N canvas 827 239 527 327 12;
+#X obj 215 162 keyboard 16 80 4 2 0 0 empty empty;
+#X obj 215 354 pack f f f;
+#X obj 215 270 unpack f f;
+#X obj 215 471 output~;
+#X obj 215 311 poly 16 1;
+#X obj 215 426 /~ 16;
+#X obj 215 389 clone 01_osc_voice~ 16;
+#X connect 0 0 2 0;
+#X connect 1 0 6 0;
+#X connect 2 0 4 0;
+#X connect 2 1 4 1;
+#X connect 4 0 1 0;
+#X connect 4 1 1 1;
+#X connect 4 2 1 2;
+#X connect 5 0 3 0;
+#X connect 5 0 3 1;
+#X connect 6 0 5 0;
