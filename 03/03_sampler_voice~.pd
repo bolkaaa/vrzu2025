@@ -1,0 +1,16 @@
+#N canvas 827 239 527 327 12;
+#X obj 402 607 *~;
+#X obj 327 274 unpack f f;
+#X obj 327 381 spigot;
+#X obj 327 111 inlet;
+#X obj 402 855 outlet~;
+#X obj 327 501 tabplay~ \$2;
+#X obj 432 415 asr~ 100 1000;
+#X connect 0 0 4 0;
+#X connect 1 0 2 0;
+#X connect 1 1 2 1;
+#X connect 1 1 6 0;
+#X connect 2 0 5 0;
+#X connect 3 0 1 0;
+#X connect 5 0 0 0;
+#X connect 6 0 0 1;
