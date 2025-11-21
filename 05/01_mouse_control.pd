@@ -1,0 +1,12 @@
+#N canvas 827 239 527 327 12;
+#X obj 491 288 mousestate;
+#X obj 492 410 tgl 86 0 empty empty clicked? 17 7 0 20 #e4e4e4 #4d4d4d #373737 0 1;
+#X obj 491 171 tgl 25 0 empty empty track\ mouse\ x/y 17 7 0 10 #e4e4e4 #4d4d4d #373737 0 1;
+#X obj 491 250 metro 10;
+#X obj 599 410 nbx 5 86 -1e+37 1e+37 0 0 empty empty X 0 -8 0 40 #e4e4e4 #373737 #373737 0 256;
+#X obj 830 410 nbx 5 86 -1e+37 1e+37 0 0 empty empty Y 0 -8 0 40 #e4e4e4 #373737 #373737 0 256;
+#X connect 0 0 1 0;
+#X connect 0 1 4 0;
+#X connect 0 2 5 0;
+#X connect 2 0 3 0;
+#X connect 3 0 0 0;
