@@ -6,8 +6,8 @@
 #X obj 1791 837 pack f f f;
 #X obj 1791 906 vline~;
 #X obj 2120 667 *;
-#X obj 1939 937 vline~;
-#X obj 1939 870 - 10;
+#X obj 2135 937 vline~;
+#X obj 2135 870 - 10;
 #X obj 1791 1107 outlet~;
 #X obj 1789 279 inlet;
 #X obj 1789 674 t f f b;
@@ -26,11 +26,11 @@
 #X obj 1957 414 r \$4-position_jitter;
 #X obj 2120 414 r \$4-grain_duration;
 #X obj 2315 414 r \$4-speed;
-#X obj 1917 1107 outlet~;
-#X obj 1917 1059 *~;
+#X obj 2113 1107 outlet~;
+#X obj 2113 1059 *~;
 #X obj 1657 873 r \$4-tables;
-#X obj 1939 837 float 150;
-#X msg 1939 904 1 10 \, 0 10 \$1;
+#X obj 2135 837 float 150;
+#X msg 2135 904 1 10 \, 0 10 \$1;
 #X obj 2163 748 / 1;
 #X connect 0 0 5 0;
 #X connect 1 0 4 1;
