@@ -1,0 +1,10 @@
+#N canvas 827 239 527 327 12;
+#X obj 19 18 vrzuphone~ 64 A;
+#X obj 186 18 vrzuphone_live~ 16 B 10;
+#X obj 130 418 output~;
+#X connect 0 0 2 0;
+#X connect 0 0 1 0;
+#X connect 0 1 2 1;
+#X connect 0 1 1 1;
+#X connect 1 0 2 0;
+#X connect 1 1 2 1;
